@@ -10,4 +10,10 @@ Created Expanding cards using vanilla html, css and js. The cards are aligned us
 ![alt Project Image](https://i.imgur.com/dllq9oQ.png)
 ![alt Project Image](https://i.imgur.com/kZttUfJ.png)
 
-Progress Steps commonly seen in multi-level forms. Created the steps for it learning about the use case of before psedo elements, how to perfectly position absolute elements. How to show progress status in a bar using js and how to set the width for it.
+Progress Steps commonly seen in multi-level forms. Created the steps for it learning about the use case of before pseudo elements, how to perfectly position absolute elements. How to show progress status in a bar using js and how to set the width for it.
+
+## Project 3: Rotating Navigation
+![alt Project Image](https://i.imgur.com/aPNzaQ6.png)
+![alt Project Image](https://i.imgur.com/QaTK5T3.png)
+
+Rotating navigation takes a new approach as compared to the traditional navigation. Using transform property we can create dynamic looking sites. Rotate is great way to add interactivity to the web page. Challenges face were calculating the rotate and translate values to perfectly show the open and close icons on click.

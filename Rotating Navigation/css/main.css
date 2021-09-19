@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #f6f7fb;
+  overflow-x: hidden;
+  background-color: #333;
+  color: #222;
+}
+
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 3.125rem;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  z-index: 999;
+}
+
+.circle {
+  background: #ff7979;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+
+nav {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 0;
+  z-index: 100;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  color: #fff;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+  margin-bottom: 1rem;
+}
+
+nav ul li + li {
+  margin-left: 1rem;
+  transform: translateX(-150%);
+}
+
+nav ul li + li + li {
+  margin-left: 2rem;
+  transform: translateX(-200%);
+}
+
+nav ul li i {
+  font-size: 1.25rem;
+  margin-right: 0.8rem;
+}
+
+
+.content img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+
+.content h3 {
+  color: #555;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.content p {
+  margin-top: 2rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.content h4 {
+  margin-top: 2.5rem;
+}
