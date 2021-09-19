@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+}
+
+nav {
+  padding-block: 1rem;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav > .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.panel-container {
+  margin-top: 2rem;
+}
+
+.panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  flex: 0.5;
+  margin-left: 1rem;
+  position: relative;
+  transition: flex 0.5s ease-in;
+}
+
+.panel:nth-child(1) {
+  margin-left: 0;
+}
+
+.panel h3 {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0.5em;
+  left: 0.8em;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.panel.active {
+  flex:5
+}
+
+.panel.active h3 {
+  opacity: 1
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1rem;
+  }
+  
+  .panel-container {
+    margin-top: 0;
+    height: 80vh;
+    flex-direction: column;
+  }
+
+  .panel {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .panel:nth-child(1) {
+    margin-top: 0;
+  }
+}
