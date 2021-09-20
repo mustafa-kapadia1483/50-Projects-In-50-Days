@@ -17,3 +17,9 @@ Progress Steps commonly seen in multi-level forms. Created the steps for it lear
 ![alt Project Image](https://i.imgur.com/QaTK5T3.png)
 
 Rotating navigation takes a new approach as compared to the traditional navigation. Using transform property we can create dynamic looking sites. Rotate is great way to add interactivity to the web page. Challenges face were calculating the rotate and translate values to perfectly show the open and close icons on click.
+
+## Project 4: Hidden Search Widget
+![alt Project Image](https://i.imgur.com/citlXRy.png)
+![alt Project Image](https://i.imgur.com/dVohfn7.png)
+
+Replicated a widget commonly found in navigation menus for searching site content. Basic implementation using relative absolute positioning along with transform translate properties with little js to achieve this. 
