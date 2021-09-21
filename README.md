@@ -24,7 +24,7 @@ Rotating navigation takes a new approach as compared to the traditional navigati
 
 Replicated a widget commonly found in navigation menus for searching site content. Basic implementation using relative absolute positioning along with transform translate properties with little js to achieve this. 
 
-## Day 4 Project 4: Hidden Search Widget
+## Day 5 Project 5: Blurry Loading
 ![alt Project GIF](https://media.giphy.com/media/Z8JntAkU2GXc5kv9ZX/giphy.gif)
 
 Blurry loading normally used to when fetching images from an api. This is created using the filter blur() property of css and and to combat the white borders on blurr the backgound of the container holding the div with background image, body in this case was given background color of #000. This better help understanding mapping of one range of numbers to another in process of mapping the loading range of 0 - 100 to blurring range of 30 - 0 and also opacity range of the loading text from 1 - 0.
