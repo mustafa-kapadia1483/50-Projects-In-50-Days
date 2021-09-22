@@ -29,3 +29,8 @@ Blurry loading normally used to when fetching images from an api. This is create
 ![alt Project GIF](https://media.giphy.com/media/sYPfcObxXLnq8RTUD3/giphy.gif)
 
 Animate the div containers on scroll by adding event listener to the window and getting the top of each element using getBoundingClientRect() on the elements. Smoothing the animation by applying transition to the transform property.
+
+## Day 7 Project 7: Split Landing Page
+![alt Project GIF](https://media.giphy.com/media/O8wKOgbytgb0tWaljD/giphy.gif)
+
+Made a container with height 100vh such that it covers the entire screen's height and width and made it a flex container. The flex items were given a 50% to fill the 50% of width and height of the screen. Then using before pseudo selector created and overlay for both the images. Made the layout responsive by giving font-sizes in terms of vmin. In js added eventlistener to the mouse enter and leave events for the left and the right divisions to grow or shrink them accordingly by changing the flew grow size value and makning the animation smooth by appyling transition to the flex property.

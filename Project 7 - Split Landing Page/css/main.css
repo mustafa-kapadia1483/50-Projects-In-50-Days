@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+  --left-overlay-color: rgba(87,84,236,0.7);
+  --right-overlay-color: rgba(43,43,43,0.8);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hero-container {
+  height: 100vh;
+  display: flex;
+}
+
+.split {
+  flex: 0 0 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: flex 0.3s ease;
+}
+
+#left, #right {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#left {
+  background-image: url("../imgs/ps5.jpg");
+}
+
+#right {
+  background-image: url("../imgs/x-box-series-x.jpg");
+}
+
+#left::before, #right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#left::before {
+  background-color: var(--left-overlay-color);
+}
+
+#right::before {
+  background-color: var(--right-overlay-color);
+}
+
+h1, .btn {
+  color: #fff;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 7vmin;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vmin;
+  margin-top: 1.5em;
+  padding: 0.8em 2em;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+}
