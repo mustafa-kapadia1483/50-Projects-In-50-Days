@@ -24,3 +24,8 @@ Replicated a widget commonly found in navigation menus for searching site conten
 ![alt Project GIF](https://media.giphy.com/media/Z8JntAkU2GXc5kv9ZX/giphy.gif)
 
 Blurry loading normally used to when fetching images from an api. This is created using the filter blur() property of css and and to combat the white borders on blurr the backgound of the container holding the div with background image, body in this case was given background color of #000. This better help understanding mapping of one range of numbers to another in process of mapping the loading range of 0 - 100 to blurring range of 30 - 0 and also opacity range of the loading text from 1 - 0.
+
+## Day 6 Project 6: Scrolling Animation
+![alt Project GIF](https://media.giphy.com/media/sYPfcObxXLnq8RTUD3/giphy.gif)
+
+Animate the div containers on scroll by adding event listener to the window and getting the top of each element using getBoundingClientRect() on the elements. Smoothing the animation by applying transition to the transform property.
