@@ -34,3 +34,8 @@ Animate the div containers on scroll by adding event listener to the window and 
 ![alt Project GIF](https://media.giphy.com/media/O8wKOgbytgb0tWaljD/giphy.gif)
 
 Made a container with height 100vh such that it covers the entire screen's height and width and made it a flex container. The flex items were given a 50% to fill the 50% of width and height of the screen. Then using before pseudo selector created and overlay for both the images. Made the layout responsive by giving font-sizes in terms of vmin. In js added eventlistener to the mouse enter and leave events for the left and the right divisions to grow or shrink them accordingly by changing the flew grow size value and makning the animation smooth by appyling transition to the flex property.
+
+## Day 8 Project 8: Form Wave Animation
+![alt Project GIF](https://media.giphy.com/media/jLrzzl1YY2CFHAJflM/giphy.gif)
+
+Placeholder labels, the kind of labels that act as placeholders before being pushed up when the input field is in focus. Used transition property of translateY to move up the labels that were position absolutely to the relative form-field. A interactive label to make the website more interactive for the end used.
