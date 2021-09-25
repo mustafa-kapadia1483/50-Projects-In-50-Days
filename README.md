@@ -46,3 +46,8 @@ Placeholder labels, the kind of labels that act as placeholders before being pus
 [YouTube Link With Audio](https://youtu.be/vifg5XJjM3o)
 
 Created a sound board that plays certain sounds on button clicks. The challenge was playing each sound individually, that is, not have sounds overlapping when multiple buttons are clicked in quick succession. The buttons are created through javascript according to the number of audio tags are present in the html file. This helped better understand the audio tag of html and how can it be efficiently controlled using javascript. The buttons are styled using before pseudo selector. The text is replaced with play button to show the user that the button will play some sound.
+
+## Day 10 Project 10: Dad Jokes
+![alt Project GIF](https://media.giphy.com/media/vQGZRuxUQIBg6nbpZG/giphy.gif)
+
+Using a free API we fetch jokes through the fetch function. Further to reduce the complexity of using then() for fetch we make use of async and await to clean our code and make it less complex to read and understand. We take on both approached of fetching data, first with then and in the last we see the simpler approach using await. We leanrt the await keywords waits for promise to resolve and then returns the response, await can only be placed inside a aysnc function.
