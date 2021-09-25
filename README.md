@@ -39,3 +39,9 @@ Made a container with height 100vh such that it covers the entire screen's heigh
 ![alt Project GIF](https://media.giphy.com/media/jLrzzl1YY2CFHAJflM/giphy.gif)
 
 Placeholder labels, the kind of labels that act as placeholders before being pushed up when the input field is in focus. Used transition property of translateY to move up the labels that were position absolutely to the relative form-field. A interactive label to make the website more interactive for the end used.
+
+## Day 9 Project 9: Sound Board
+![alt Project GIF](https://media.giphy.com/media/fAfxZOwmO2LR7xFxga/giphy.gif)
+[YouTube Link With Audio](https://youtu.be/vifg5XJjM3o)
+
+Created a sound board that plays certain sounds on button clicks. The challenge was playing each sound individually, that is, not have sounds overlapping when multiple buttons are clicked in quick succession. The buttons are created through javascript according to the number of audio tags are present in the html file. This helped better understand the audio tag of html and how can it be efficiently controlled using javascript. The buttons are styled using before pseudo selector. The text is replaced with play button to show the user that the button will play some sound.
