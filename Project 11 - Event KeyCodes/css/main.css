@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+
+body {
+  background: #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.key {
+  border: 1px solid #999;
+  background-color: #eee;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1.5em;
+  font-weight: bold;
+  min-width: 150px;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.key small {
+  position: absolute;
+  top: -1.6em;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #555;
+  font-size: 1rem;
+}

@@ -51,3 +51,8 @@ Created a sound board that plays certain sounds on button clicks. The challenge 
 ![alt Project GIF](https://media.giphy.com/media/vQGZRuxUQIBg6nbpZG/giphy.gif)
 
 Using a free API we fetch jokes through the fetch function. Further to reduce the complexity of using then() for fetch we make use of async and await to clean our code and make it less complex to read and understand. We take on both approached of fetching data, first with then and in the last we see the simpler approach using await. We leanrt the await keywords waits for promise to resolve and then returns the response, await can only be placed inside a aysnc function.
+
+## Day 11 Project 11: Event KeyCodes
+![alt Project GIF](https://media.giphy.com/media/MVEjBi7XblkFAqUaLn/giphy.gif)
+
+The project was basically showing the user the key he/she has pressed and give the key, keyCode which is depreceted now and code. A small project to learn about key events and how can we listen for key events and get the key pressed by the used. In this case we use the keydown event listener to listen for all the key presses user makes.
