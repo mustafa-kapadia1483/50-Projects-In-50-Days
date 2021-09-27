@@ -58,6 +58,6 @@ Using a free API we fetch jokes through the fetch function. Further to reduce th
 The project was basically showing the user the key he/she has pressed and give the key, keyCode which is depreceted now and code. A small project to learn about key events and how can we listen for key events and get the key pressed by the used. In this case we use the keydown event listener to listen for all the key presses user makes.
 
 ## Day 12 Project 12: FAQ Boxes
-![alt Project GIF](https://media.giphy.com/media/MVEjBi7XblkFAqUaLn/giphy.gif)
+![alt Project GIF](https://media.giphy.com/media/F3it5yqXTJGSP5C8nF/giphy.gif)
 
 Made a faq page styled boxes which can be toggled to show the answer to the most asked questions. Used two font awesome icons through css pseudo elements to show in background by positioning them absolute to the faq box. The comment icon is rotated and using absolute poitioning is placed crossing over each other.
