@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+
+body {
+  background: #282828;
+  overflow: hidden;
+  height: 100vh;
+}
+
+h1 {
+  color: #d79921;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.faq-container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.faq {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #ebdbb2;
+  color: #ebdbb2;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+  padding: 2em 4em;
+  position: relative;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.faq.active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.faq.active::before, .faq.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+  color: hsl(40, 73%, 35%);
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 1.5rem;
+  right: 2rem;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: hsl(40, 51%, 45%);
+  right: -1rem;
+  top: -1rem;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin-bottom: 0.5em;
+}
+
+.faq-toggle {
+  background: transparent;
+  color: #d79921;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-chevron-up {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-chevron-up {
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq .faq-text {
+  display: none;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
