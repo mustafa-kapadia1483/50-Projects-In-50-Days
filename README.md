@@ -61,3 +61,8 @@ The project was basically showing the user the key he/she has pressed and give t
 ![alt Project GIF](https://media.giphy.com/media/F3it5yqXTJGSP5C8nF/giphy.gif)
 
 Made a faq page styled boxes which can be toggled to show the answer to the most asked questions. Used two font awesome icons through css pseudo elements to show in background by positioning them absolute to the faq box. The comment icon is rotated and using absolute poitioning is placed crossing over each other.
+
+## Day 13 Project 13: Random Choice Picker
+![alt Project GIF](https://media.giphy.com/media/PWqpJ4HwRNObptSc20/giphy.gif)
+
+This was morea javascript focus project where we created pill buttons as choices which user can input through the input box. The user then clicks enter to start the random selector which randomly animates the selection process and at the end selects a choice for the user and highlights the same.
