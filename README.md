@@ -66,3 +66,8 @@ Made a faq page styled boxes which can be toggled to show the answer to the most
 ![alt Project GIF](https://media.giphy.com/media/PWqpJ4HwRNObptSc20/giphy.gif)
 
 This was morea javascript focus project where we created pill buttons as choices which user can input through the input box. The user then clicks enter to start the random selector which randomly animates the selection process and at the end selects a choice for the user and highlights the same.
+
+## Day 14 Project 14: Animated Navigation
+![alt Project GIF](https://media.giphy.com/media/n3Ms669dywkLqHtvzC/giphy.gif)
+
+A simple animated navigation. Learnt how we can animate the transform rotate property to create vibrant animations like this where the nav toggler gives the effect of rotate for closing and opening along with the rotating nav links.
