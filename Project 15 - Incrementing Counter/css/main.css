@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+body {
+  background: #2a273f;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-container {
+  display: flex;
+  color: #9ccfd8;
+}
+
+.counter-box {
+  padding: 2em 6em;
+  text-align: center;
+  position: relative;
+}
+
+.counter-box i {
+  font-size: 3rem;
+}
+
+.counter-box .count {
+  font-size: 4rem;
+  margin-top: 0.25em;
+}
+
+.counter-box .count-title {
+  font-size: 1rem;
+  margin-top: 0.25em;
+}
+
+.counter-box::after {
+  content: "";
+  height: 50%;
+  width: 2px;
+  background: #9ccfd8;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.counter-box:last-child::after {
+  content: none;
+}

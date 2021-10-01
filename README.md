@@ -71,3 +71,8 @@ This was morea javascript focus project where we created pill buttons as choices
 ![alt Project GIF](https://media.giphy.com/media/n3Ms669dywkLqHtvzC/giphy.gif)
 
 A simple animated navigation. Learnt how we can animate the transform rotate property to create vibrant animations like this where the nav toggler gives the effect of rotate for closing and opening along with the rotating nav links.
+
+## Day 15 Project 15: Incrementing Counter
+![alt Project GIF](https://media.giphy.com/media/Vgv1ejbWyPSl5i2C3y/giphy.gif)
+
+Social media following counter usually common in websites. Learn about tag attributes and how we can give self defined attributes. In css side of things learnt about last-chil selector. In js implemented the counter by updating the numbers by a certain increment after a certain span of time using settimeout.
