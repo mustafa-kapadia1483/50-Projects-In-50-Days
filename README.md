@@ -76,3 +76,9 @@ A simple animated navigation. Learnt how we can animate the transform rotate pro
 ![alt Project GIF](https://media.giphy.com/media/Vgv1ejbWyPSl5i2C3y/giphy.gif)
 
 Social media following counter usually common in websites. Learn about tag attributes and how we can give self defined attributes. In css side of things learnt about last-chil selector. In js implemented the counter by updating the numbers by a certain increment after a certain span of time using settimeout.
+
+## Day 16 Project 16: Drink Water
+![alt Project GIF](https://media.giphy.com/media/aesc7PFZ4Ea47TelBV/giphy.gif)
+
+This project helped me understand how can we use javascript effectively to manipulate the DOM elements on click events and how to create interactive interfaces.
+
