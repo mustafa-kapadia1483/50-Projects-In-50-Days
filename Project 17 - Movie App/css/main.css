@@ -1,0 +1,137 @@
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--primary-color);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  background: var(--secondary-color);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  color: #fff;
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px 0 0 50px;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border-right: 0;
+}
+
+.search__btn, input[type="reset"] {
+  border: 0;
+  padding: 1em 1.2em;
+  font-size: 1rem;
+  background: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  color: #efefef;
+  cursor: pointer;
+}
+
+input[type="reset"].hide {
+  display: none;
+}
+
+.search__btn {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 0 50px 50px 0;
+}
+
+.search::placeholder {
+  color: #7378c5;
+}
+
+.search:focus {
+  outline: none;
+  background: #3c3f7c
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  max-width: 300px;
+  margin: 1rem;
+  background: var(--secondary-color);
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie-title {
+  padding: 1rem;
+  padding-block: 0.5rem;
+}
+
+.movie-info {
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info .movie-rating {
+  background: var(--primary-color);
+  padding: 0.25em 0.5em;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.movie-info .movie-rating.green {
+  color: lightgreen;
+}
+
+.movie-info .movie-rating.orange {
+  color: orange;
+}
+.movie-info .movie-rating.red {
+  color: red;
+}
+
+.overview {
+  color: #000;
+  background: #fff;
+  padding: 1.5em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(101%);
+  max-height: 100%;
+  transition: transform 0.2s ease-in;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
+}
