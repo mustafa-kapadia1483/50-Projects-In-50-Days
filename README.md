@@ -83,6 +83,6 @@ Social media following counter usually common in websites. Learn about tag attri
 This project helped me understand how can we use javascript effectively to manipulate the DOM elements on click events and how to create interactive interfaces.
 
 ## Day 17 Project 17: Movie App
-![alt Project GIF](https://media.giphy.com/media/dMbhwWjU0IMrzHjav6/giphy.gif)
+![alt Project GIF](https://i.giphy.com/media/dMbhwWjU0IMrzHjav6/giphy.webp)
 
 Created a movie searching app that displays currently popular movies and also offers to search movies by query string. The API used for this project is the The Movie Database API (TMDB), it is used in this case bcz it provides currently popular movies through api and also helps in searching for particular movies using the search api endpoint. Implementing the API help me understand better as to how data coming from an API can be effectively populated on the front end and shown to the end user.
