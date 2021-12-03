@@ -109,3 +109,9 @@ Created a movie searching app that displays currently popular movies and also of
 ![alt Project GIF](https://media.giphy.com/media/rD7mKVBMgSJ3zYNHRN/giphy.gif)
 
 A background slider that syncs the image in the slider with the background image of the body, that is, the image in the slider and the background changes simultaneously.
+
+## Day 19 Project 19: Minimalistic Clock
+
+![alt Project GIF](https://media.giphy.com/media/lmFX7HMmUMmNhJjIUu/giphy.gif)
+
+Minimalistic clock with both dark and light theme achieved using css variables. This project helped me understand the date object of js better and how to integrate js with css to create cool animations and add functionality to the website through js.
