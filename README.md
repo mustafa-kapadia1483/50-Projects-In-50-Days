@@ -121,3 +121,9 @@ Minimalistic clock with both dark and light theme achieved using css variables. 
 ![alt Project GIF](https://media.giphy.com/media/Q6Lm3zKJZ3gaHdndjc/giphy.gif)
 
 Created a button which when clicked shows a ripple effect from the point where the user clicks the button. This is achieved by using js with css. In js we capture the x and y values of the point of click and then subtract it with the offset top and left values of the button element to get the exact position where the user clicks the button. The ripple effect is achieved by using the animation in css. Further, I learn to clean the DOM when using vanilla js as the spans created by the button click to perform the ripple effect need to removed once the animation is completed else it will result in n number of unwanted spans inside button when user clicks multiple times.
+
+## Day 21 Project 21: Drag N Drop
+
+![alt Project GIF](https://media.giphy.com/media/Mg55iEPwrvGGjYVPOO/giphy.gif)
+
+Diving into the drag and drop functionalities provided by HTML5 and javascript. Learned how to use drag events like enter, leave, drop, etc and how to change styles based on them to create interactive UIs.
