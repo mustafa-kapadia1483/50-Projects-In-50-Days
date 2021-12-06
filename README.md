@@ -127,3 +127,9 @@ Created a button which when clicked shows a ripple effect from the point where t
 ![alt Project GIF](https://media.giphy.com/media/Mg55iEPwrvGGjYVPOO/giphy.gif)
 
 Diving into the drag and drop functionalities provided by HTML5 and javascript. Learned how to use drag events like enter, leave, drop, etc and how to change styles based on them to create interactive UIs.
+
+## Day 22 Project 22: Drawing Board
+
+![alt Project GIF](https://thumbs.gfycat.com/LikableAnguishedConey-mobile.mp4)
+
+Made a drawing board using canvas api of javascript. This helped understand the working of color input and the canvas api. It help grasp the concept of creating shapes such as circles and lines on canvas api along with mousedown and up events. Also how can the color input element be used to get color choices from the user and change behaviour by catching the color input change in javascript.
