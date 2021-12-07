@@ -130,6 +130,12 @@ Diving into the drag and drop functionalities provided by HTML5 and javascript. 
 
 ## Day 22 Project 22: Drawing Board
 
-![alt Project GIF](https://media.giphy.com/media/zTSB6UJjgRo5vIteyN/giphy.gif)
+![alt Project GIF](https://thumbs.gfycat.com/LikableAnguishedConey-size_restricted.gif)
 
 Made a drawing board using canvas api of javascript. This helped understand the working of color input and the canvas api. It help grasp the concept of creating shapes such as circles and lines on canvas api along with mousedown and up events. Also how can the color input element be used to get color choices from the user and change behaviour by catching the color input change in javascript.
+
+## Day 23 Project 23: Kinetic Loader
+
+![alt Project GIF](https://media.giphy.com/media/mUIzN106C4GK0BSxk1/giphy.gif)
+
+A very short project where I create a loader using only css and html, no js. It helped me understand how to create triangle shapes in css by giving 0 width and height to a element and giving boder size to either sides of the border. Also how css animations can be used to create sublime animations.
