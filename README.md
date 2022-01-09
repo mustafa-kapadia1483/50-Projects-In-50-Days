@@ -139,3 +139,9 @@ Made a drawing board using canvas api of javascript. This helped understand the 
 ![alt Project GIF](https://media.giphy.com/media/mUIzN106C4GK0BSxk1/giphy.gif)
 
 A very short project where I create a loader using only css and html, no js. It helped me understand how to create triangle shapes in css by giving 0 width and height to a element and giving boder size to either sides of the border. Also how css animations can be used to create sublime animations.
+
+## Day 24 Project 24: Content Placeholder 
+
+![alt Project GIF](https://thumbs.gfycat.com/AdvancedSociableAfricanparadiseflycatcher-max-1mb.gif)
+
+A useful trick to show the user that the content is being loaded when fetching data from a api. A good UX practice since at low speed connections it may take more time for the data to load through the api for some users and the loading animation makes it easier for the user to make out that the content is being loaded and the site is not stuck
