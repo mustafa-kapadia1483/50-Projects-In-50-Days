@@ -151,3 +151,15 @@ A useful trick to show the user that the content is being loaded when fetching d
 ![alt Project GIF](https://thumbs.gfycat.com/WatchfulCanineGibbon-size_restricted.gif)
 
 The most common component of any website is a navbar which is created in this project. Learnt how to use position fixed and how can we add an event listener to scroll events and help make the site more interactive.
+
+## Day 26 Project 26: Sticky Navbar
+
+In Desktop:
+
+![alt Project GIF](https://thumbs.gfycat.com/DependentRadiantDorado-size_restricted.gif)
+
+In Mobile:
+
+![alt Project GIF](https://thumbs.gfycat.com/AbandonedAcrobaticFinwhale-size_restricted.gif)
+
+A great interactive slider which is responsive. learned how to make such cool animations responsive and more about transform properties and how to use them effectively
