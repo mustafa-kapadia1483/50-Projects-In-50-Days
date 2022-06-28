@@ -152,7 +152,7 @@ A useful trick to show the user that the content is being loaded when fetching d
 
 The most common component of any website is a navbar which is created in this project. Learnt how to use position fixed and how can we add an event listener to scroll events and help make the site more interactive.
 
-## Day 26 Project 26: Sticky Navbar
+## Day 26 Project 26: Double Responsive Slider
 
 In Desktop:
 
